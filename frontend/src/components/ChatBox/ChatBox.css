@@ -1,0 +1,47 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Seu container ocupa a altura total da tela */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #747373;
+  font-family: Arial, sans-serif;
+}
+
+/* Container do chat */
+.chatbox-container {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Título */
+.chatbox-title {
+  color: #3d3d3d;
+}
+
+/* Textarea (sobrepõe um pouco o estilo padrão do bootstrap para mais espaço) */
+.chatbox-textarea {
+  font-size: 1rem;
+  border-radius: 6px !important;
+  resize: none;
+}
+
+/* Botão */
+.chatbox-button {
+  font-weight: 600;
+}
+
+/* Resposta */
+.chatbox-response {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-radius: 6px;
+  color: #4f575f;
+  max-height: 200px;
+  overflow-y: auto;
+}
