@@ -11,9 +11,7 @@ Você pode conversar com o bot diretamente pelo Telegram:
 👉 [ChatAI GSC](https://t.me/ChatAIGSCbot)
 
 
-
 ---
-
 
 ## 🌐 Front-end
 
